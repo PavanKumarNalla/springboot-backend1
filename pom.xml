@@ -57,7 +57,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.10.1</version> <!-- Updated version -->
+                <version>3.8.1</version> <!-- Compatible version -->
                 <configuration>
                     <source>17</source>
                     <target>17</target>
@@ -71,4 +71,5 @@
         </plugins>
         <finalName>Springboot-backend</finalName>
     </build>
+
 </project>
