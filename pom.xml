@@ -16,7 +16,7 @@
     <properties>
         <java.version>17</java.version>
         <!-- Define compatible plugin versions -->
-        <maven.resources.plugin.version>3.3.0</maven.resources.plugin.version>
+        <maven.resources.plugin.version>3.2.0</maven.resources.plugin.version> <!-- This version should be compatible with most Maven versions -->
     </properties>
     <dependencies>
         <dependency>
