@@ -14,12 +14,9 @@
     <name>springboot-backend1</name>
     <description>Demo</description>
     <properties>
-        <java.version>8</java.version> <!-- Downgrade Java version for better compatibility -->
-        <!-- Use compatible plugin versions for Maven 3.0.5 -->
+        <java.version>8</java.version> <!-- Java version compatible with Maven 3.0.5 -->
         <maven.compiler.plugin.version>2.3.2</maven.compiler.plugin.version>
         <maven.resources.plugin.version>2.6</maven.resources.plugin.version>
-        <!-- Add properties for Jakarta dependencies -->
-        <spring.boot.version>2.6.6</spring.boot.version>
     </properties>
     <dependencies>
         <dependency>
@@ -47,7 +44,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <!-- Add Jakarta Persistence dependency -->
+        <!-- Jakarta Persistence API -->
         <dependency>
             <groupId>jakarta.persistence</groupId>
             <artifactId>jakarta.persistence-api</artifactId>
